@@ -1,0 +1,26 @@
+body {
+  background-color: #f4f4f9;
+  font-family: "Segoe UI", sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin-top: 50px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.form-control {
+  background-color: #eef1f7;
+  border: 1px solid #dfe4ea;
+}
+.btn-custom {
+  background-color: #4e73df;
+  color: white;
+}
+.btn-custom:hover {
+  background-color: #375a7f;
+}
+.alert {
+  margin-top: 20px;
+}

@@ -41,16 +41,35 @@ CREATE TABLE plat (
 
 -- Données pour la table `client`
 INSERT INTO client (nom, prenom, email) VALUES
-('Martin', 'Lucie', 'lucie.martin@example.com'),
-('Bernard', 'Julien', 'julien.bernard@example.com'),
-('Kuong', 'Émilie', 'emilie.kuong@example.com'),
-('Petit', 'Sophie', 'sophie.petit@example.com'),
-('Robert', 'Christophe', 'christophe.robert@example.com');
+('Martin',      'Lucie',        'lucie.martin@example.com'),
+('Bernard',     'Julien',       'julien.bernard@example.com'),
+('Kuong',       'Émilie',       'emilie.kuong@example.com'),
+('Petit',       'Sophie',       'sophie.petit@example.com'),
+('Durand',      'Camille',      'camille.durand@example.com'),
+('Legrand',     'Thomas',       'thomas.legrand@example.com'),
+('Moreau',      'Isabelle',     'isabelle.moreau@example.com'),
+('Fischer',     'Marc',         'marc.fischer@example.com'),
+('Leroy',       'Anne',         'anne.leroy@example.com'),
+('Garcia',      'Nicolas',      'nicolas.garcia@example.com'),
+('André',       'Marie',        'marie.andre@example.com'),
+('Lopez',       'Julien',       'julien.lopez@example.com'),
+('Perez',       'Clara',        'clara.perez@example.com'),
+('Muller',      'Eva',          'eva.muller@example.com'),
+('Weber',       'Louis',        'louis.weber@example.com'),
+('Lambert',     'Jeanne',       'jeanne.lambert@example.com'),
+('Fernandez',   'Hugo',         'hugo.fernandez@example.com'),
+('Nguyen',      'Thuy',         'thuy.nguyen@example.com'),
+('Rousseau',    'Jacques',      'jacques.rousseau@example.com'),
+('Robert',      'Christophe',   'christophe.robert@example.com');
 
 -- Données pour la table `categorie`
 INSERT INTO categorie (nom_categorie) VALUES
 ('Entrée'),
 ('Plat principal'),
+('Pizza'),
+('Asiatique'),
+('Tex-Mex'),
+('Planches'),
 ('Dessert'),
 ('Boisson');
 
